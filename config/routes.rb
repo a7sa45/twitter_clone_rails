@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users, controllers: { registrations: 'registrations' }
+
   root 'pages#timeline'
+
+  resources :users, only: [:show]
 
   get 'pages/timeline'
 

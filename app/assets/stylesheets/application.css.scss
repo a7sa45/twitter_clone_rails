@@ -19,3 +19,15 @@
  body {
      padding-top: 70px;
  }
+
+ .timeline-contered, .card, .jumbotron-fluid, .checkbox, .alert, input, textarea {
+     direction: rtl;
+ }
+
+ .btn-group {
+     direction: rtl;
+ }
+
+ body, .dropdown-item {
+    text-align: right;
+ }
